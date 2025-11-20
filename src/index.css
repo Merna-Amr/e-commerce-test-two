@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+
+@layer utilities{
+  .container{
+    margin-inline :auto;
+  }
+}
+
+.active{
+  @apply text-amber-50
+}
